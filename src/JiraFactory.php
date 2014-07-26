@@ -41,8 +41,7 @@ class JiraFactory
             $helperSet->get('question'),
             'Jira issue tracker',
             'http://jira.atlassian.com/rest/api/2/',
-            'http://jira.atlassian.com/',
-            [['Password', DefaultConfigurator::AUTH_HTTP_PASSWORD]]
+            'http://jira.atlassian.com/'
         );
     }
 }
